@@ -5,7 +5,7 @@
   "main": "src/index.tsx",
   "scripts": {
     "start": "react-scripts start",
-    "test": "jest -c jest.config.js --watch",
+    "test": "jest -c jest.config.js --coverage",
     "build": "react-scripts build",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },

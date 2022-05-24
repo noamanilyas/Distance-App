@@ -5,6 +5,9 @@ import { cleanup, render, fireEvent, screen } from '@testing-library/react';
 import axios from 'axios';
 import App from '../App';
 
+console.error = jest.fn(); // silence log during test
+console.log = jest.fn(); // silence log during test
+
 jest.mock('axios');
 
 afterEach(cleanup);
