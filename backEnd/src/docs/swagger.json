@@ -15,7 +15,7 @@
   "schemes": [
     "http"
   ],
-  "host": "localhost:3080",
+  "host": "localhost:1337",
   "paths": {
     "/partners": {
       "get": {
