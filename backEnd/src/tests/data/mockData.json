@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "urlName": "mock-1",
+    "organization": "Mock 1",
+    "customerLocations": "across Australia, Pacific and Oceania",
+    "willWorkRemotely": true,
+    "website": "http://www.mock1.com.",
+    "services": "Mock details",
+    "offices": [
+      {
+        "location": "Sydney, Australia",
+        "address": "Mock Address 1",
+        "coordinates": "29.746894,68.389558"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "urlName": "mock-2",
+    "organization": "Mock 2",
+    "customerLocations": "across Australia, Pacific and Oceania",
+    "willWorkRemotely": true,
+    "website": "http://www.mock2.com.",
+    "services": "Mock details",
+    "offices": [
+      {
+        "location": "Sydney, Australia",
+        "address": "Mock Address 2",
+        "coordinates": "25.874946, 64.996770"
+      }
+    ]
+  }
+]

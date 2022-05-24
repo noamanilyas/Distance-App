@@ -1,0 +1,13 @@
+{
+  "status": true,
+  "result": [
+    {
+      "id": 12,
+      "organization": "C2C Organizational Development",
+      "offices": [
+        "Rich Homes Building, 5/1 Richmond Road, Bangalore, India - 560 025"
+      ]
+    }
+  ],
+  "error": false
+}
