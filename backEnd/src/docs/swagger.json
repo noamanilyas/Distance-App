@@ -12,14 +12,18 @@
       "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
     }
   },
-  "schemes": ["http"],
+  "schemes": [
+    "http"
+  ],
   "host": "localhost:3080",
   "paths": {
     "/partners": {
       "get": {
         "summary": "Get all nearby partners",
         "description": "Get all nearby partners",
-        "produces": ["application/json"],
+        "produces": [
+          "application/json"
+        ],
         "parameters": [],
         "responses": {
           "200": {
@@ -57,16 +61,19 @@
             "type": "object",
             "properties": {
               "id": {
-                "type": "string",
-                "example": "626922d33ceda11d7b5a06ec"
+                "type": "number",
+                "example": 1
               },
-              "name": {
+              "organization": {
                 "type": "string",
-                "example": "Aenean aliquam varius ligula"
+                "example": "Blue Square 360"
               },
-              "status": {
-                "type": "boolean",
-                "example": false
+              "offices": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "example": "Ocean Financial Centre, Level 40, 10 Collyer Quay, Singapore, 049315"
+                }
               }
             }
           }
