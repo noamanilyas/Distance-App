@@ -40,6 +40,11 @@ export async function getNearByPartnersService(params: PartnerRequest): Promise<
       }
     }
 
+    // Sort By Name
+    result.sort((x,y) => {
+      return ((x.organization == y.organization) ? 0 : ((x.organization > y.organization) ? 1 : -1 ));
+    });
+
     return result;
   } catch (err) {
     throw new UnexpectedError("Something went wrong.");
