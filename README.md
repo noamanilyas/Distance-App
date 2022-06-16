@@ -1,5 +1,9 @@
 # Distance App Assignment
 
+### Please read the problem statement and checkout the sample json.
+
+### Also please read my thought process to design the solution.
+
 ## Please follow the below steps to run the backend project
 
 1.  Run command "npm install" on your terminal.
